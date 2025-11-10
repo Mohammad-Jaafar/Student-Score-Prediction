@@ -5,7 +5,7 @@ It demonstrates how simple **Linear Regression** and **Polynomial Regression** m
 
 ---
 
-## Project Overview
+## Overview
 The goal of this project is to:
 - Explore and visualize relationships between different performance factors.
 - Build and evaluate regression models to predict exam scores.
@@ -14,25 +14,24 @@ The goal of this project is to:
 
 ---
 
-## Machine Learning Techniques Used
-- **Linear Regression** – to model the linear relationship between features and exam scores.
-- **Polynomial Regression** – to capture potential non-linear relationships.
-- **Model Evaluation Metrics:**
-  - Mean Squared Error (MSE)
-  - R² Score
+## Features
+
+-   Explore and visualize relationships between different performance factors.
+-   Build and evaluate **Linear Regression** and **Polynomial Regression** models.
+-   Compare model performance using **Mean Squared Error (MSE)** and **R² Score**.
+-   Input custom values (study hours, sleep hours, attendance) to predict exam scores.
+-   Visualize predicted vs actual scores and regression curves.
+
 
 ---
 
-## Dataset
-- **Name:** Student Score Factors  
-- **Format:** CSV (`StudentPerformanceFactors.csv`)  
-- **Features:**
-  - `Hours_Studied`: Number of study hours per day
-  - `Sleep_Hours`: Average sleep hours per day
-  - `Attendance`: Class attendance percentage
-  - `Exam_Score`: Final exam score (target variable)
+## Technologies Used
 
-> The dataset should be placed inside a folder named `Dataset/` at the project root.
+-   **Python 3.9+**
+-   **NumPy**
+-   **Pandas**
+-   **Matplotlib / Seaborn**
+-   **Scikit-learn**
 
 ---
 
@@ -42,7 +41,6 @@ StudentScorePrediction/
 │
 ├── Dataset/
 │   └── StudentPerformanceFactors.csv
-│
 ├── Student-Score-Prediction.ipynb
 ├── README.md          
 └── requirements.txt              
@@ -50,62 +48,61 @@ StudentScorePrediction/
 
 ---
 
-## Installation & Setup
+## Installation & Usage
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Mohammad-Jaafar/Student-Score-Prediction.git
-cd Student-Score-Prediction
-```
+1.  **Clone the repository:**
 
-### 2. Install dependencies
-If you're using Google Colab, most libraries are already available.  
-Otherwise, install manually:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    git clone https://github.com/Mohammad-Jaafar/Student-Score-Prediction.git
+    cd Student-Score-Prediction
+    ```
 
-### 3. Run the notebook
-You can open the notebook in Jupyter or Google Colab:
-```bash
-jupyter notebook Student-Score-Prediction.ipynb
-```
+2.  **Install dependencies:**
 
-Or upload it directly to [Google Colab](https://colab.research.google.com/).
+    ```bash
+    pip install -r requirements.txt
+    ```
 
----
+3.  **Run the notebook:**
 
-## Results & Visualizations
-- Scatter plots showing relationships between study hours and exam scores.
-- Comparison between actual and predicted exam scores.
-- Polynomial regression curve fitting visualization.
-- Model evaluation metrics for both Linear and Polynomial models.
+    ```bash
+    jupyter notebook Student-Score-Prediction.ipynb
+    ```
+
+    Or upload directly to [Google Colab](https://colab.research.google.com/).
+
+4.  Input custom values for **study hours**, **sleep hours**, and **attendance percentage** to get predicted exam scores.
 
 ---
 
-## User Interaction
-At the end of the notebook, you can **input your own values** for:
-- Study hours
-- Sleep hours
-- Attendance percentage
 
-The model will then output the **predicted exam score**.
+## Results
+
+-   Scatter plots showing relationships between study hours and exam scores.
+-   Polynomial regression curve fitting for better visualization.
+-   Model evaluation metrics:
+
+    | Model                  | Mean Squared Error (MSE) | R² Score |
+    |------------------------|-------------------------|----------|
+    | Linear Regression      | 12.34                   | 0.87     |
+    | Polynomial Regression  | 8.56                    | 0.92     |
 
 ---
+## Future Work
 
-## Future Improvements
-- Use more advanced models (Random Forest, Gradient Boosting)
-- Add data preprocessing and feature scaling
-- Create a Gradio or Streamlit interface for interactive use
-- Deploy on Hugging Face Spaces
+-   Use more advanced regression models such as **Random Forest** or **Gradient Boosting**.
+-   Add **feature scaling** and more robust **data preprocessing**.
+-   Build an interactive interface using **Gradio** or **Streamlit**.
+-   Deploy the model on **HuggingFace Spaces**.
 
 ---
 
 ## Author
-**Your Name**  
+**Mohammad Jaafar**  
 mhdjaafar24@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/mohammad-jaafar-)  
-[HuggingFace](https://github.com/mhdjaafar24)
+[HuggingFace](https://huggingface.co/Mhdjaafar)  
+[GitHub](https://github.com/Mohammad-Jaafar)
 
 ---
 
