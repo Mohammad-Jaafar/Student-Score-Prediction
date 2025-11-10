@@ -48,30 +48,14 @@ StudentScorePrediction/
 
 ---
 
-## Installation & Usage
+## How to Run
 
-1.  **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/Mohammad-Jaafar/Student-Score-Prediction.git
-    cd Student-Score-Prediction
-    ```
-
-2.  **Install dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the notebook:**
-
-    ```bash
-    jupyter notebook Student-Score-Prediction.ipynb
-    ```
-
-    Or upload directly to [Google Colab](https://colab.research.google.com/).
-
-4.  Input custom values for **study hours**, **sleep hours**, and **attendance percentage** to get predicted exam scores.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohammad-Jaafar/Student-Score-Prediction.git
+   ```
+2. Open the notebook in Jupyter or Google Colab.
+3. Run all cells step-by-step to reproduce the results.
 
 ---
 
@@ -86,14 +70,6 @@ StudentScorePrediction/
     |------------------------|-------------------------|----------|
     | Linear Regression      | 12.34                   | 0.87     |
     | Polynomial Regression  | 8.56                    | 0.92     |
-
----
-## Future Work
-
--   Use more advanced regression models such as **Random Forest** or **Gradient Boosting**.
--   Add **feature scaling** and more robust **data preprocessing**.
--   Build an interactive interface using **Gradio** or **Streamlit**.
--   Deploy the model on **HuggingFace Spaces**.
 
 ---
 
